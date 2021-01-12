@@ -87,7 +87,7 @@ class FormContainer extends React.Component{
             <FormComponent
 
             pavadinimas={this.state.pavadinimas}
-            aparasymas={this.state.aprasymas}
+            aprasymas={this.state.aprasymas}
             sventesTipas ={this.state.sventesTipas}
             paveiksliukas={this.state.paveiksliukas}
             veliava={this.state.veliava}

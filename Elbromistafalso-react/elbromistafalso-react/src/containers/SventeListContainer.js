@@ -43,7 +43,7 @@ class SventeListContainer extends React.Component{
 
     render(){
 
-        if(this.state.sveikinimai.length < 1){
+        if(this.state.sventes.length < 1){
 
             return(<AlertComponent/>)
         }

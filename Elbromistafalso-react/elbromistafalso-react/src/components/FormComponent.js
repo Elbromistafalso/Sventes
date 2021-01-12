@@ -32,9 +32,8 @@ let FormComponent = (props) => {
                     </select>
                 </div>
                 <div className="form-group">
-                    <label>Paveiksliukas
-                    <input className="form-control" type="file" value={props.paveiksliukas} onChange={props.onPaveiksliukasChange}></input>
-                    </label>
+                <label>Paveiksliuko Url: </label>
+                    <input className="form-control" value={props.paveiksliukas} onChange={props.onPaveiksliukasChange}></input>
                 </div>
             <button className="btn" onClick={props.onSubmit}>Save</button>
             </form>
